@@ -26,7 +26,7 @@ module.exports = {
     plugins: [
         docsearchPlugin({
             appId: '2R49JO3IMP',
-            apiKey: 'cd47d4f87f4efc86fa4c440fccb19151',
+            apiKey: '7db6048804d5d1b575dc8610bfba9475',
             indexName: 'docs',
         }),
     ],
