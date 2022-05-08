@@ -10,6 +10,18 @@ module.exports = {
         repo: 'warung-international/docs',
         docsBranch: 'master',
         docsDir: 'docs',
+        navbar: [
+            // NavbarItem
+            {
+              text: 'Introduction',
+              link: '/guide/introduction',
+            },
+            // NavbarItem
+            {
+                text: 'Commands',
+                link: '/guide/commands',
+              },
+          ],
     }),
     plugins: [
         docsearchPlugin({
