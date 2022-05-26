@@ -15,7 +15,7 @@
     "lvl5": ".theme-default-content h5",
     "text": ".theme-default-content p, .theme-default-content li"
   },
-  "scrape_start_urls": false,
+  "scrape_start_urls": true,
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
