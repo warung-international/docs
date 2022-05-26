@@ -5,6 +5,7 @@
   "selectors": {
     "lvl0": {
       "selector": ".sidebar-heading.active",
+      "global": true,
       "default_value": "Documentation"
     },
     "lvl1": ".theme-default-content h1",
@@ -12,12 +13,12 @@
     "lvl3": ".theme-default-content h3",
     "lvl4": ".theme-default-content h4",
     "lvl5": ".theme-default-content h5",
-    "lvl6": ".theme-default-content h6",
-    "content": ".theme-default-content p, .theme-default-content li"
+    "text": ".theme-default-content p, .theme-default-content li"
   },
+  "scrape_start_urls": false,
+  "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": ["type"],
-    "attributesToRetrieve": ["hierarchy", "content", "anchor", "url"]
+    "attributesForFaceting": ["tags"]
   }
 }
