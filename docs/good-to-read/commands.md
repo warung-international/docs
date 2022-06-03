@@ -14,7 +14,7 @@ Let's take a deep dive to each commands on Peradaban.
 :::
 
 
-## Owner only Commands
+## Bot Owner only Commands
 
 This command only can be executed by the owner of the bot, also.. this commands are not available in slash commands.
 
