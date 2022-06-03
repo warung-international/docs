@@ -6,44 +6,22 @@ tags:
   - hello
 ---
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Welcome to Peradaban Documentations!
 
-## Getting Started
+[![Warung International](https://img.shields.io/discord/922523614828433419.svg?logo=discord)](https://discord.gg/JzJTUGPc35) [![Build Production](https://github.com/warung-international/peradaban/actions/workflows/build.yml/badge.svg)](https://github.com/warung-international/peradaban/actions/workflows/build.yml) [![precommit-action](https://github.com/warung-international/peradaban/actions/workflows/pre-commit.yml/badge.svg)](https://github.com/warung-international/peradaban/actions/workflows/pre-commit.yml) [![Build Documentations](https://github.com/warung-international/docs/actions/workflows/build.yml/badge.svg)](https://github.com/warung-international/docs/actions/workflows/build.yml) [![Test](https://github.com/warung-international/docs/actions/workflows/test.yml/badge.svg)](https://github.com/warung-international/docs/actions/workflows/test.yml) [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-Get started by **creating a new site**.
+<p align="center">
+  <a aria-label="Pico logo" href="https://docs.robot-international.eu.org">
+    <img src="/img/hero320.png" />
+  </a>
+</p>
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+<p align="center">
+  Peradaban is a Discord Bot that have all tools you need from managing a server, engage with server members, and more...
+</p>
 
-### What you'll need
+### Introductions
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+This maybe a little awkward, but Welcome, Welcome, Welcome! 🥂
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+For specific documentations, Please check the tabs over there 👈
