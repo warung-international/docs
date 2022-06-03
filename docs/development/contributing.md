@@ -1,9 +1,9 @@
 ---
-id: dev-intro
-title: Introduction
+id: dev-contrib
+title: Contributing
 sidebar_position: 1
 tags:
-  - introduction
+  - contributing
   - development
 ---
 
