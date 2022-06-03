@@ -7,62 +7,86 @@ tags:
   - help
 ---
 
-Let's take a deep dive to each commands on Peradaban, and which file is contains these commands or whatnot.
+Let's take a deep dive to each commands on Peradaban.
 
-All files are sorted in Alphabetical order (A-Z)
-
-## `./main.py` - Main Executable File
-
-This file is the heart of the bot itself. Contains Scale Regrow Commands, logging, and more. Here's some breakdown on that file :
-
-#### `/regrow` - Reload Scale Commands
-
-:::caution
-Only `Bot Owner` can execute this commands!
+:::tip
+- Bot's prefix is `!` and mentionable (slash commands supported)
 :::
 
-Regrow a Scale
 
-To use it, type _slash commands_`/regrow scale: scale`
-e.g. `/regrow scale: help commands`
+## Owner only Commands
 
-## `./scales` folder
+This command only can be executed by the owner of the bot, also.. this commands are not available in slash commands.
 
-This folder contains most functions of the bot itself, here's some breakdown on that folder :
+### Load Extension Commands
 
-### `./scales/avatar.py` - Avatar Related Scales
+Load a extensions.
 
-This `scales` is Part of Avatar Commands. This.
-Here's some listed customized commands.
+To use it, type `[prefix]load [the extension name]`
 
-#### `Avatar` - Avatar member app commands
+e.g. `!load help`
 
-:::info
-This is Member App Commands, and it's unlisted from slash commands.
-:::
+### Unload Extension Commands
+
+Unload a extensions.
+
+To use it, type `[prefix]unload [the extension name]`
+
+e.g. `!unload help`
+
+### Reload Extension Commands
+
+Reload a extensions.
+
+To use it, type `[prefix]reload [the extension name]`
+
+e.g. `!reload help`
+
+### Reboot Commands
+
+Reboot the bot.
+
+To use it, type `[prefix]reboot`
+
+e.g. `!reboot`
+
+### Shutdown Commands
+
+Shutdown the bot.
+
+To use it, type `[prefix]shutdown`
+
+e.g. `!shutdown`
+
+## General use Commands
+
+This command only can be executed by every member.
+
+### Avatar commands
+
+<details>
+  <summary>💡 Context menu available</summary>
+To use it, Left click at target user -> Apps -> Avatar
+</details>
 
 See your/other people avatar.
 
-To use it, Left click at target user
+To use it, type `[prefix]av [@member]` or `/avatar member: [@member]`
 
-#### `Guild Avatar` - Guild Avatar member app commands
+e.g. `/avatar @mclemie#0001`
 
-:::info
-This is Member App Commands, and it's unlisted from slash commands.
-:::
+### Guild Avatar commands
+
+<details>
+  <summary>💡 Context menu available</summary>
+To use it, Left click at target user -> Apps -> Guild Avatar
+</details>
 
 See your/other people guild avatar.
 
-To use it, Left click at target user
+To use it, type `[prefix]gav [@member]` or `/guild-avatar member: [@member]`
 
-### `./scales/wheelspin.py` - Wheelspin Scales
-
-#### `!wheelspin` - Wheelspin commands
-
-This command is like the wheel in GTA. You can use it every 3 hours.
-Simply type the command and the bot will give you something.
-
-To use it, type _slash commands_`/wheelspin`
+e.g. `/avatar @mclemie#0001`
 
 ### `./scales/levellings.py` - Levelling Related scales
 
