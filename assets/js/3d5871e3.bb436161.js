@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkperadaban_docs=self.webpackChunkperadaban_docs||[]).push([[60],{8585:function(e){e.exports=JSON.parse('{"label":"hello","permalink":"/docs/tags/hello","allTagsPath":"/docs/tags","count":1,"items":[{"id":"hello","title":"Hello!","description":"Let\'s discover Docusaurus in less than 5 minutes.","permalink":"/docs/hello"}]}')}}]);

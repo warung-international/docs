@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkperadaban_docs=self.webpackChunkperadaban_docs||[]).push([[439],{7408:function(e){e.exports=JSON.parse('{"label":"tools","permalink":"/docs/tags/tools","allTagsPath":"/docs/tags","count":1,"items":[{"id":"development/dev-awesome","title":"Awesome","description":"Test","permalink":"/docs/development/dev-awesome"}]}')}}]);
