@@ -58,7 +58,7 @@ To use it, type `[prefix]shutdown`
 
 e.g. `!shutdown`
 
-## General use Commands
+## Tool Commands
 
 This command only can be executed by every member.
 
@@ -88,60 +88,99 @@ To use it, type `[prefix]gav [@member]` or `/guild-avatar member: [@member]`
 
 e.g. `/avatar @mclemie#0001`
 
-### `./scales/levellings.py` - Levelling Related scales
+### User Information commands
 
-This scales is an interface for managing users Rank.
+<details>
+  <summary>💡 Context menu available</summary>
+To use it, Left click at target user -> Apps -> User Info
+</details>
 
-#### `/rank` - Rank Commands
+Get information about a member.
 
-Know your or someone Rank.
+To use it, type `[prefix]ui [@member]` or `/user-info member: [@member]`
 
-To use it, type _slash commands_``/rank member: member (optional)`
+e.g. `/user-info @mclemie#0001`
 
-e.g. `/rank` or `/rank member: @GNZTMPZ#0001`
+### Urban Dictionary commands
 
-#### `/give-xp` - Give XP Commands
+Search for a term on the Urban Dictionary.
+
+To use it, type `[prefix]urban [query]` or `/urban query: [query]`
+
+e.g. `/urban yntkts`
+
+### Konesyntees Text to Voice Synthesizer commands
+
+Use superior Estonian technology to express your feelings like you've never before!
+
+To use it, type `[prefix]konesyntees [input]` or `/konesyntees input: [input]`
+
+e.g. `/konesyntees ya ndak tau kok tanya saya`
+
+### Uptime commands
+
+Get information about the server.
+
+To use it, type `[prefix]si` or `/server-info`
+
+e.g. `/server-info`
+
+### Uptime commands
+
+Shows you for how long has the bot been online.
+
+To use it, type `[prefix]uptime` or `/uptime`
+
+e.g. `/uptime`
+
+### Ping commands
+
+Check the bot's latency.
+
+To use it, type `[prefix]ping` or `/ping`
+
+e.g. `/ping`
+
+## Levelling Commands
+
+This command only can be executed by every member. (some are limited to moderators)
+
+### Rank Commands
+
+Get your rank or another member's rank
+
+To use it, type `[prefix]rank [@member]` or `/rank member: [@member]`
+
+e.g. `/rank @mclemie#0001`
+
+### Levels/Leaderboard commands
+
+Get a link to the server's leaderboard.
+
+To use it, type `[prefix]levels` or `/levels`
+
+e.g. `/levels`
+
+### Give XP Commands
 
 :::caution
-Requires `operator` role.
+Requires `MANAGE_MESSAGES` permissions.
 :::
 
-Adding XP to Tagged Members.
+Give XP to a member.
 
-To use it, type _slash commands_``/givexp member: member amount: amount`
+To use it, type `[prefix]givexp [@member] [amount]` or `/give-xp member: [@member] amount: [amount]`
 
-e.g. `/givexp member: @GNZTMPZ#0001 amount: 50`
+e.g. `/give-xp @mclemie#0001 50`
 
-#### `/levels` - Leaderboard Commands
-
-Rankings for most messages sent.
-
-To use it, type _slash commands_`/levels`
-
-#### `/remove-xp` - Remove XP Commands
+### Remove XP Commands
 
 :::caution
-Requires `operator` role.
+Requires `MANAGE_MESSAGES` permissions.
 :::
 
-Remove some XP from Tagged Members.
+Remove XP from a member
 
-To use it, type _slash commands_`/removexp member: member amount: amount`
+To use it, type `[prefix]removexp [@member] [amount]` or `/remove-xp member: [@member] amount: [amount]`
 
-e.g. `/removexp member: @GNZTMPZ#0001 amount: 50`
-
-### `./scales/tools.py` - Tools scales
-
-This scales contains some useful tools, more info below..
-
-#### `/serverinfo` - Server Info Commands
-
-See this server info.
-
-To use it, type _slash commands_`/serverinfo`
-
-#### `/ping` - Ping Commands
-
-See the bots latency.
-
-To use it, type _slash commands_`/ping`
+e.g. `/remove-xp @mclemie#0001 50`
