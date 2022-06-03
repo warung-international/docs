@@ -42,7 +42,7 @@ jobs:
         if: ${{ github.ref == 'refs/heads/master' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/.vuepress/dist
+          publish_dir: ./build
           cname: docs.warunginternational.eu.org
           full_commit_message: ${{ github.event.head_commit.message }}
       
