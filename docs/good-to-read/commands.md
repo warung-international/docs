@@ -1,8 +1,11 @@
 ---
-sidebar_position: 2
+id: gtr-commands
+title: Commands
+sidebar_position: 1
+tags:
+  - commands
+  - help
 ---
-
-# Commands
 
 Let's take a deep dive to each commands on Peradaban, and which file is contains these commands or whatnot.
 

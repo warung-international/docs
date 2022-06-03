@@ -1,0 +1,8 @@
+{
+  "label": "Good to Read",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "This category contains some good things to read before you're interacting with our bots."
+  }
+}
