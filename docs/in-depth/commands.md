@@ -1,5 +1,5 @@
 ---
-id: gtr-commands
+id: id-commands
 title: Commands
 sidebar_position: 1
 tags:
