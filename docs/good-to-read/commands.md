@@ -13,54 +13,73 @@ Let's take a deep dive to each commands on Peradaban.
 - Bot's prefix is `!` and mentionable (slash commands supported)
 :::
 
+## Tags Commands
 
-## Bot Owner only Commands
+This command can be executed by every member. (some commands are limited to administrators and also slash commands only!)
 
-This command only can be executed by the owner of the bot, also.. this commands are not available in slash commands.
+### Use Tags commands
 
-### Load Extension Commands
+allow's me to recall tags.
 
-Load a extensions.
+To use it, type `/t use tagname: [tag name]`
 
-To use it, type `[prefix]load [the extension name]`
+e.g. `/t use ynkts`
 
-e.g. `!load help`
+### Create Tags commands
 
-### Unload Extension Commands
+allow's me to store tags.
 
-Unload a extensions.
+To use it, type `/t create tagname: [tag name] content: [string | optional] attachments: [file | optional]`
 
-To use it, type `[prefix]unload [the extension name]`
+e.g. `/t create ynkts ya ndak tau kok tanya saya [file attached]`
 
-e.g. `!unload help`
+### Edit Tags commands
 
-### Reload Extension Commands
+allow's me to edit tags that you own.
 
-Reload a extensions.
+To use it, type `/t edit tagname: [tag name] content: [string | optional] attachments: [file | optional]`
 
-To use it, type `[prefix]reload [the extension name]`
+e.g. `/t edit ynkts ya ndak tau kok tanya saya [file attached]`
 
-e.g. `!reload help`
+### Delete Tags commands
 
-### Reboot Commands
+allow's me to delete tags that you own.
 
-Reboot the bot.
+To use it, type `/t delete tagname: [tag name]`
 
-To use it, type `[prefix]reboot`
+e.g. `/t delete ynkts`
 
-e.g. `!reboot`
+### Moderator Delete Tags commands
 
-### Shutdown Commands
+:::caution
+Requires `MANAGE_MESSAGES` permissions.
+:::
 
-Shutdown the bot.
+allow's me to delete any tag.
 
-To use it, type `[prefix]shutdown`
+To use it, type `/t mod-delete tagname: [tag name]`
 
-e.g. `!shutdown`
+e.g. `/t mod-delete ynkts`
+
+### Show Tags List commands
+
+allow's me to see all tags for this server.
+
+To use it, type `/t list`
+
+e.g. `/t list`
+
+### Tags Info commands
+
+allow's me to see information about a tag.
+
+To use it, type `/t info tagname: [tag name]`
+
+e.g. `/t info ynkts`
 
 ## Tool Commands
 
-This command only can be executed by every member.
+This command can be executed by every member.
 
 ### Avatar commands
 
@@ -143,7 +162,7 @@ e.g. `/ping`
 
 ## Levelling Commands
 
-This command only can be executed by every member. (some are limited to moderators)
+This command can be executed by every member. (some commands are limited to moderators)
 
 ### Rank Commands
 
@@ -184,3 +203,130 @@ Remove XP from a member
 To use it, type `[prefix]removexp [@member] [amount]` or `/remove-xp member: [@member] amount: [amount]`
 
 e.g. `/remove-xp @mclemie#0001 50`
+
+## Moderation Commands
+
+This command only can be executed by moderators and admins. (Slash Commands only!)
+
+### Slowmode Commands
+
+:::caution
+Requires `MANAGE_MESSAGES` permissions.
+:::
+
+Enable/Disable slowmode in a channel.
+
+To use it, type `/slowmode on timeout: [time in seconds]`
+
+e.g. `/slowmode on 5`
+
+To disable it, type `/slowmode off`
+
+
+### Clear/Prune Commands
+
+:::caution
+Requires `MANAGE_MESSAGES` permissions.
+:::
+
+Delete a channel's messages.
+
+To use it, type `/clear amount: [amount of messages]`
+
+e.g. `/clear 5`
+
+### Ban Commands
+
+:::caution
+Requires `BAN_MEMBERS` permissions.
+:::
+
+Ban a member from the server.
+
+To use it, type `/ban member: [@member] delete_message_days: [amount of messages] reason: [optional]`
+
+e.g. `/ban @mclemie#0001 5 server snoodling`
+
+### Unban Commands
+
+:::caution
+Requires `ADMINISTRATOR` permissions.
+:::
+
+Unban a member from the server.
+
+To use it, type `/unban member: [user id] reason: [optional]`
+
+e.g. `/unban @mclemie#0001 false alarm`
+
+### Kick Commands
+
+:::caution
+Requires `KICK_MEMBERS` permissions.
+:::
+
+Kick a member from the server.
+
+To use it, type `/kick member: [@member] reason: [optional]`
+
+e.g. `/kick @mclemie#0001 server snoodling`
+
+### Mute Commands
+
+:::caution
+Requires `MODERATE_MEMBERS` permissions.
+:::
+
+Mute/Unmute a member from the server.
+
+To use it, type `/mute on member: [@member] duration: [time in seconds] reason: [optional]`
+
+e.g. `/mute on @mclemie#0001 5 server snoodling`
+
+To disable it, type `/mute off member: [@member] reason: [optional]`
+
+e.g. `/mute off @mclemie#0001 false alarm`
+
+## Bot Owner only Commands
+
+This command only can be executed by the owner of the bot, also.. this commands are not available in slash commands.
+
+### Load Extension Commands
+
+Load a extensions.
+
+To use it, type `[prefix]load [the extension name]`
+
+e.g. `!load help`
+
+### Unload Extension Commands
+
+Unload a extensions.
+
+To use it, type `[prefix]unload [the extension name]`
+
+e.g. `!unload help`
+
+### Reload Extension Commands
+
+Reload a extensions.
+
+To use it, type `[prefix]reload [the extension name]`
+
+e.g. `!reload help`
+
+### Reboot Commands
+
+Reboot the bot.
+
+To use it, type `[prefix]reboot`
+
+e.g. `!reboot`
+
+### Shutdown Commands
+
+Shutdown the bot.
+
+To use it, type `[prefix]shutdown`
+
+e.g. `!shutdown`
