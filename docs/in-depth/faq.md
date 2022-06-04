@@ -9,3 +9,6 @@ tags:
 
 Frequently asked question regarding our Server Bots.
 
+:::caution
+This page is a placeholder, and will be populated at a later date.
+:::
