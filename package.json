@@ -16,7 +16,7 @@
   "dependencies": {
     "@docusaurus/core": "latest",
     "@docusaurus/preset-classic": "latest",
-    "@mdx-js/react": "^1.6.22",
+    "@mdx-js/react": "^2.1.2",
     "clsx": "latest",
     "prism-react-renderer": "latest",
     "react": "latest",
