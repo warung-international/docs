@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkperadaban_docs=self.webpackChunkperadaban_docs||[]).push([[60],{8585:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/docs/tags/hello","allTagsPath":"/docs/tags","count":1,"items":[{"id":"hello","title":"Hello!","description":"Welcome to Peradaban Documentations!","permalink":"/docs/hello"}]}')}}]);
